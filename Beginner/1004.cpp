@@ -3,11 +3,11 @@
  
 int main() {
  
-    int A, B, SOMA;
+    int A, B, PROD;
     std::cin >> A;
     std::cin >> B;
-    SOMA = A+B;
-    std::cout << "SOMA = " << SOMA << std::endl;
+    PROD = A*B;
+    std::cout << "PROD = " << PROD << std::endl;
  
     return 0;
 }
