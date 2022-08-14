@@ -1,9 +1,3 @@
-A = 0
-B = 0
-C = 0
-D = 0
-E = 0
-F = 0
 A = float(input())
 B = float(input())
 C = float(input())
