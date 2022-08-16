@@ -6,112 +6,102 @@ using namespace std;
 
 int main() {
 
-    int valor, intValor;
-    double mValor;
-    double fValor;
-    double cont = 0;
-    cin >> mValor;
-    valor = mValor;
-    fValor = mValor - valor;
-    intValor = fValor * 100;
+    int nValor2,nValor4;
+    double nValor3;
+    double nValor;
+    double nCont = 0;
+
+    cin >> nValor;
+
+    nValor2 = nValor;
+    nValor3 = nValor - nValor2;
+    nValor4 = nValor3 * 100;
 
     cout << "NOTAS:\n";
-    while (valor >= 100)
-    {
-        valor = valor - 100;
-        cont++;
+    while (nValor2 >= 100) {
+        nValor2 = nValor2 - 100;
+        nCont++;
     }
-    cout << cont << " nota(s) de R$ 100,00" << endl;
-    cont = 0;
+    cout << nCont << " nota(s) de R$ 100,00" << endl;
+    nCont = 0;
 
-    while (valor >= 50)
-    {
-        valor = valor - 50;
-        cont++;
+    while (nValor2 >= 50) {
+        nValor2 = nValor2 - 50;
+        nCont++;
     }
-    cout << cont << " nota(s) de R$ 50,00" << endl;
-    cont = 0;
+    cout << nCont << " nota(s) de R$ 50,00" << endl;
+    nCont = 0;
 
-    while (valor >= 20)
-    {
-        valor = valor - 20;
-        cont++;
+    while (nValor2 >= 20) {
+        nValor2 = nValor2 - 20;
+        nCont++;
     }
-    cout << cont << " nota(s) de R$ 20,00" << endl;
-    cont = 0;
+    cout << nCont << " nota(s) de R$ 20,00" << endl;
+    nCont = 0;
 
-    while (valor >= 10)
-    {
-        valor = valor - 10;
-        cont++;
+    while (nValor2 >= 10) {
+        nValor2 = nValor2 - 10;
+        nCont++;
     }
-    cout << cont << " nota(s) de R$ 10,00" << endl;
-    cont = 0;
+    cout << nCont << " nota(s) de R$ 10,00" << endl;
+    nCont = 0;
 
-    while (valor >= 5)
-    {
-        valor = valor - 5;
-        cont++;
+    while (nValor2 >= 5) {
+        nValor2 = nValor2 - 5;
+        nCont++;
     }
-    cout << cont << " nota(s) de R$ 5,00" << endl;
-    cont = 0;
+    cout << nCont << " nota(s) de R$ 5,00" << endl;
+    nCont = 0;
 
-    while (valor >= 2)
-    {
-        valor = valor - 2;
-        cont++;
+    while (nValor2 >= 2){
+        nValor2 = nValor2 - 2;
+        nCont++;
     }
-    cout << cont << " nota(s) de R$ 2,00" << endl;
-    cont = 0;
+    cout << nCont << " nota(s) de R$ 2,00" << endl;
+    nCont = 0;
 
     std::cout << "MOEDAS:\n";
-    while (valor >= 1)
-    {
-        valor = valor - 1;
-        cont++;
+    while (nValor2 >= 1){
+        nValor2 = nValor2 - 1;
+        nCont++;
     }
-    cout << cont << " moeda(s) de R$ 1,00" << endl;
-    cont = 0;
+    cout << nCont << " moeda(s) de R$ 1,00" << endl;
+    nCont = 0;
 
-    while (intValor >= 50)
-    {
-        intValor = intValor - 50;
-        cont++;
+    while (nValor4 >= 50){
+        nValor4 = nValor4 - 50;
+        nCont++;
     }
-    cout << cont << " moeda(s) de R$ 0,50" << endl;
-    cont = 0;
+    cout << nCont << " moeda(s) de R$ 0,50" << endl;
+    nCont = 0;
 
-    while (intValor >= 25)
-    {
-        intValor = intValor - 25;
-        cont++;
+    while (nValor4 >= 25){
+        nValor4 = nValor4 - 25;
+        nCont++;
     }
-    cout << cont << " moeda(s) de R$ 0,25" << endl;
-    cont = 0;
+    cout << nCont << " moeda(s) de R$ 0,25" << endl;
+    nCont = 0;
 
-    while (intValor >= 10)
-    {
-        intValor = intValor - 10;
-        cont++;
+    while (nValor4 >= 10){
+        nValor4 = nValor4 - 10;
+        nCont++;
     }
-    cout << cont << " moeda(s) de R$ 0,10" << endl;
-    cont = 0;
+    cout << nCont << " moeda(s) de R$ 0,10" << endl;
+    nCont = 0;
 
-    while (intValor >= 5)
-    {
-        intValor = intValor - 5;
-        cont++;
+    while (nValor4 >= 5){
+        nValor4 = nValor4 - 5;
+        nCont++;
     }
-    cout << cont << " moeda(s) de R$ 0,05" << endl;
-    cont = 0;
+    cout << nCont << " moeda(s) de R$ 0,05" << endl;
+    nCont = 0;
 
-    while (intValor >= 1)
-    {
-        intValor = intValor - 1;
-        cont++;
+    while (nValor4 >= 1){
+        nValor4 = nValor4 - 1;
+        nCont++;
     }
-    cout << cont << " moeda(s) de R$ 0,01" << endl;
-    cont = 0;
+    cout << nCont << " moeda(s) de R$ 0,01" << endl;
+    nCont = 0;
 
     return 0;
 }
