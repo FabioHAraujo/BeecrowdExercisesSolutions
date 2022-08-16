@@ -2,112 +2,116 @@
 #include <iostream>
 #include <math.h>
 
-int main()
-{
-    int valor, rValor, cont = 0;
-    double mValor;
-    std::cin >> mValor;
-    valor = mValor;
-    mValor = mValor - valor;
-    mValor = mValor*100;
+using namespace std;
 
-    std::cout << "NOTAS:\n";
+int main() {
+
+    int valor, intValor;
+    double mValor;
+    double fValor;
+    double cont = 0;
+    cin >> mValor;
+    valor = mValor;
+    fValor = mValor - valor;
+    intValor = fValor * 100;
+
+    cout << "NOTAS:" << endl;
     while (valor >= 100)
     {
-        valor -=100;
+        valor = valor - 100;
         cont++;
     }
-    std::cout << cont << " nota(s) de R$ 100,00\n";
+    cout << cont << " nota(s) de R$ 100,00" << endl;
     cont = 0;
 
     while (valor >= 50)
     {
-        valor -=50;
+        valor = valor - 50;
         cont++;
     }
-    std::cout << cont << " nota(s) de R$ 50,00\n";
+    cout << cont << " nota(s) de R$ 50,00" << endl;
     cont = 0;
 
     while (valor >= 20)
     {
-        valor -=20;
+        valor = valor - 20;
         cont++;
     }
-    std::cout << cont << " nota(s) de R$ 20,00\n";
+    cout << cont << " nota(s) de R$ 20,00" << endl;
     cont = 0;
 
     while (valor >= 10)
     {
-        valor-=10;
+        valor = valor - 10;
         cont++;
     }
-    std::cout << cont << " nota(s) de R$ 10,00\n";
+    cout << cont << " nota(s) de R$ 10,00" << endl;
     cont = 0;
 
     while (valor >= 5)
     {
-        valor-=5;
+        valor = valor - 5;
         cont++;
     }
-    std::cout << cont << " nota(s) de R$ 5,00\n";
+    cout << cont << " nota(s) de R$ 5,00" << endl;
     cont = 0;
 
     while (valor >= 2)
     {
-        valor-=2;
+        valor = valor - 2;
         cont++;
     }
-    std::cout << cont << " nota(s) de R$ 2,00\n";
+    cout << cont << " nota(s) de R$ 2,00" << endl;
     cont = 0;
 
     std::cout << "MOEDAS:\n";
     while (valor >= 1)
     {
-        valor-=1;
+        valor = valor - 1;
         cont++;
     }
-    std::cout << cont << " moeda(s) de R$ 1,00\n";
+    cout << cont << " moeda(s) de R$ 1,00" << endl;
     cont = 0;
 
-    while (mValor >= 50)
+    while (intValor >= 50)
     {
-        mValor-=50;
+        intValor = intValor - 50;
         cont++;
     }
-    std::cout << cont << " moeda(s) de R$ 0,50\n";
+    cout << cont << " moeda(s) de R$ 0,50" << endl;
     cont = 0;
 
-    while (mValor >= 25)
+    while (intValor >= 25)
     {
-        mValor-=25;
+        intValor = intValor - 25;
         cont++;
     }
-    std::cout << cont << " moeda(s) de R$ 0,25\n";
+    cout << cont << " moeda(s) de R$ 0,25" << endl;
     cont = 0;
 
-    while (mValor >= 10)
+    while (intValor >= 10)
     {
-        mValor-=10;
+        intValor = intValor - 10;
         cont++;
     }
-    std::cout << cont << " moeda(s) de R$ 0,10\n";
+    cout << cont << " moeda(s) de R$ 0,10" << endl;
     cont = 0;
 
-    while (mValor >= 5)
+    while (intValor >= 5)
     {
-        mValor-=5;
+        intValor = intValor - 5;
         cont++;
     }
-    std::cout << cont << " moeda(s) de R$ 0,05\n";
+    cout << cont << " moeda(s) de R$ 0,05" << endl;
     cont = 0;
 
-    while (mValor >= 1)
+    while (intValor >= 1)
     {
-        mValor-=1;
+        intValor = intValor - 1;
         cont++;
     }
-    std::cout << cont << " moeda(s) de R$ 0,01\n";
+    cout << cont << " moeda(s) de R$ 0,01" << endl;
     cont = 0;
-    
+
     return 0;
 }
