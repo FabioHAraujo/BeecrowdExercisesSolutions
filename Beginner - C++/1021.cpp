@@ -15,7 +15,7 @@ int main() {
     fValor = mValor - valor;
     intValor = fValor * 100;
 
-    cout << "NOTAS:" << endl;
+    cout << "NOTAS:\n";
     while (valor >= 100)
     {
         valor = valor - 100;
