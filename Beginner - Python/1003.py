@@ -1,3 +1,4 @@
 A = int(input())
 B = int(input())
-print ('SOMA =', A+B)
+SOMA = A+B
+print ('SOMA =', SOMA)
