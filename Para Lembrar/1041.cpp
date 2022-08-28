@@ -5,7 +5,7 @@ using namespace std;
 
 int main ()
 {
-    float x, y;
+    double x, y;
     cin >> x >> y;
     if (x==0 and y==0)
     {
