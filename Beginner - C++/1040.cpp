@@ -18,7 +18,7 @@ int main ()
         cin >> nRec;
         cout << fixed << setprecision(1) << "Media: " << media << endl;
         cout << "Aluno em exame." << endl;
-        cout << fixed << setprecision(1) << "Nota do Exame: " << nRec << endl;
+        cout << fixed << setprecision(1) << "Nota do exame: " << nRec << endl;
         media = (media+nRec)/2;
             if (media >=5.0)
             {

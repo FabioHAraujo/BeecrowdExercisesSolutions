@@ -13,11 +13,11 @@ int main ()
     }
     else if (x==0)
     {
-        cout << "Eixo X\n";
+        cout << "Eixo Y\n";
     }
     else if (y==0)
     {
-        cout << "Eixo Y\n";
+        cout << "Eixo X\n";
     }
     else if (x>0 and y>0)
     {
