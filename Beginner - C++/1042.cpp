@@ -1,3 +1,5 @@
+// ESSA VAI FICAR PRA QUADNO EU APRENDER A FAZER DE OUTRA FORMA, PORQUE CERTAMENTE NÃO É ASSIM
+
 #include <iomanip>
 #include <iostream>
 
